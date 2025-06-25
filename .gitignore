@@ -39,3 +39,41 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode settings
+.vscode/
+
+# Data, models, and logs (if you want to keep them local)
+data/
+logs/
+models/
+*.log
+
+# Matplotlib and Seaborn cache
+*.png
+*.svg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FastAPI auto-generated files
+instance/
